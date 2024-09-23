@@ -3,11 +3,11 @@ import java.time.format.DateTimeFormatter;
 
 class Produto{
     // Atributos
-    String nome;
-    String fabricacao;
-    String validade;
-    double precoCusto;
-    double precoVenda;
+    private String nome;
+    private String fabricacao;
+    private String validade;
+    private double precoCusto;
+    private double precoVenda;
 
     // Construtor caso entrada nula
     public Produto(){
